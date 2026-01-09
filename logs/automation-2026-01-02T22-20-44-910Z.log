@@ -1,0 +1,27 @@
+[2026-01-02 17:20:45] [INFO]: ---Starting test setup---
+[2026-01-02 17:20:45] [INFO]: Selected browser from config: chromium
+[2026-01-02 17:20:45] [INFO]: Launching browser
+[2026-01-02 17:20:45] [INFO]: Browser launched successfully: chromium
+[2026-01-02 17:20:45] [INFO]: Starting test: Login, Order books, checkout and download invoice 
+[2026-01-02 17:21:23] [ERROR]: Test failed with message: page.selectOption: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('select#BillingNewAddress_CountryId')[22m
+[2m    - locator resolved to <select data-val="true" id="BillingNewAddress_CountryId" name="BillingNewAddress.CountryId" data-val-required="Country is required." data-val-number="The field Country must be a number.">…</select>[22m
+[2m  - attempting select option action[22m
+[2m    2 × waiting for element to be visible and enabled[22m
+[2m      - element is not visible[22m
+[2m    - retrying select option action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and enabled[22m
+[2m      - element is not visible[22m
+[2m    - retrying select option action[22m
+[2m      - waiting 100ms[22m
+[2m    58 × waiting for element to be visible and enabled[22m
+[2m       - element is not visible[22m
+[2m     - retrying select option action[22m
+[2m       - waiting 500ms[22m
+
+    at CheckoutPage.enterBillingDetails (C:\playwrightBDD\src\pages\CheckoutPage.ts:31:30)
+    at async CustomWorld.<anonymous> (C:\playwrightBDD\src\steps\login.steps.ts:24:5)
+[2026-01-02 17:21:23] [INFO]: Closing browser
+[2026-01-02 17:21:23] [INFO]: Browser closed successfully...

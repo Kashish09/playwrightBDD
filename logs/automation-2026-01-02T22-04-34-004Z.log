@@ -1,0 +1,11 @@
+[2026-01-02 17:04:34] [INFO]: ---Starting test setup---
+[2026-01-02 17:04:34] [INFO]: Selected browser from config: chromium
+[2026-01-02 17:04:34] [INFO]: Launching browser
+[2026-01-02 17:04:35] [INFO]: Browser launched successfully: chromium
+[2026-01-02 17:04:35] [INFO]: Starting test: Login, Order books, checkout and download invoice 
+[2026-01-02 17:04:47] [ERROR]: Test failed with message: Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\playwrightBDD\node_modules\@cucumber\cucumber\src\time.ts:52:14)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+[2026-01-02 17:04:47] [INFO]: Closing browser
+[2026-01-02 17:04:47] [INFO]: Browser closed successfully...

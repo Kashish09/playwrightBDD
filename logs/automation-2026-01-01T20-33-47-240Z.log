@@ -1,0 +1,17 @@
+[2026-01-01 15:33:47] [INFO]: ---Starting test setup---
+[2026-01-01 15:33:47] [INFO]: Selected browser from config: chromium
+[2026-01-01 15:33:47] [INFO]: Launching browser
+[2026-01-01 15:33:47] [INFO]: Browser launched successfully: chromium
+[2026-01-01 15:33:47] [INFO]: Starting test: Login, Order books, checkout and download invoice 
+[2026-01-01 15:33:53] [ERROR]: Test failed with message: locator.click: Error: strict mode violation: getByText('Shopping cart') resolved to 3 elements:
+    1) <a href="/cart">shopping cart</a> aka getByRole('link', { name: 'shopping cart', exact: true })
+    2) <span class="cart-label">Shopping cart</span> aka getByRole('link', { name: 'Shopping cart (3)' })
+    3) <a href="/cart" class="ico-cart">Shopping cart</a> aka getByRole('link', { name: 'Shopping cart', exact: true })
+
+Call log:
+[2m  - waiting for getByText('Shopping cart')[22m
+
+    at ShoppingCartPage.goToCart (C:\playwrightBDD\src\pages\ShoppingCartPage.ts:12:46)
+    at CustomWorld.<anonymous> (C:\playwrightBDD\src\steps\login.steps.ts:19:36)
+[2026-01-01 15:33:53] [INFO]: Closing browser
+[2026-01-01 15:33:53] [INFO]: Browser closed successfully...

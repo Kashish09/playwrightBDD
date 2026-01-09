@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Language & runtime */
+    "target": "esnext",
+    "lib": ["ESNext", "DOM"],
+
+    /* Module system (CRITICAL for you) */
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    /* TypeScript behavior */
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+
+    /* Interop & imports */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    /* Tooling */
+    "types": ["node"],
+    "skipLibCheck": true,
+
+    /* Output */
+    "noEmit": true
+  },
+
+  "include": [
+    "src/**/*.ts",
+    "cucumber.js"
+  ],
+
+  "exclude": ["node_modules"],
+
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}
