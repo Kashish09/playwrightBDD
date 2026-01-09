@@ -1,0 +1,7 @@
+[2026-01-02 17:27:31] [INFO]: ---Starting test setup---
+[2026-01-02 17:27:31] [INFO]: Selected browser from config: chromium
+[2026-01-02 17:27:31] [INFO]: Launching browser
+[2026-01-02 17:27:31] [INFO]: Browser launched successfully: chromium
+[2026-01-02 17:27:31] [INFO]: Starting test: Login, Order books, checkout and download invoice 
+[2026-01-02 17:27:40] [INFO]: Closing browser
+[2026-01-02 17:27:40] [INFO]: Browser closed successfully...
